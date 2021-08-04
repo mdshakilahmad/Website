@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+body{
+	background:#323232;
+}
+.wrap{
+	width:350px;
+	margin:auto;
+	background: #33C;
+	margin-top:50px;
+	padding:5px;
+}
+form{
+	padding:10;
+	font-family:arial;
+	border:1px dotted whote;
+	}
+h1{
+		text-align:center;
+		background:orange;
+		color:white;
+		padding:10px;
+		border-radius:10px;
+}
+input{
+	padding:10px;
+	margin:5px;
+	border-radius:5px;
+	border:none;
+	}
+input[type=text], input[type=email], input[type=number], input[type=password]{
+	width:90%
+	}
+input[type=submit]{
+	width:95%;
+	background:orange;
+	cursor:pointer;
+	font-size:18px;
+	font-weight:bold;
+	color:white;
+}
+input[type=submit]:hover{
+	background:#030;
+	}
+select{
+	padding:10px;
+	width:20%;
+	border-radius:5px;
+}
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sign UP Form</title>
+
+</head>
+
+<body>
+<div class="wrap">
+<form>
+<h1>SignUp Form</h1>
+<input type="text" name="yourname" placeholder="Your Name" />
+<input type="email" name="email" placeholder="Your Email" />
+<input type="number" name="mnumber" placeholder="Mobile Number" />
+<input type="password" name="password" placeholder="Password" />
+<input type="password" name="conformpassword" placeholder="Conform Password" />
+<br />
+<span style="font-size:18px" > Date of Birth </span><br />
+
+<select name="DoBMonth">
+<option>Month</option>
+<option value="january">January</option>
+<option value="february">February</option>
+</select>
+
+<select name="DoBday">
+<option>Day</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+
+
+<select name="DoBYear">
+<option>Year</option>
+<option value="2000">2000</option>
+<option value="1900">1900</option>
+</select>
+<br />
+<br />
+<input type="radio" name="male" value="male">Male
+<input type="radio" name="female" value="female">FeMale
+<br />
+<input type="checkbox"> I Agree The Terms of Use <br />
+<input type="submit" value="Submit Now" />
+
+
+</form>
+</div>
+ 
+</body>
+</html>
